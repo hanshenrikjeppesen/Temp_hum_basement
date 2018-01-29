@@ -1,8 +1,8 @@
 from time import sleep
 import pigpio
-sleep(2)
+# sleep(2)
 pi = pigpio.pi()
-sleep(1)
+# sleep(1)
 import DHT22
 sleep(1)
 s = DHT22.sensor(pi, 4)
