@@ -16,5 +16,5 @@ for i in range(10):
     temp = temp + int(s.temperature())
 
 temp = temp/10
-print('avag temp is=: ' + temp)
+print('avag temp is=: ' + str(temp))
 
