@@ -1,6 +1,4 @@
-import os
 from time import sleep
-os.chdir('DHT22_py')
 import pigpio
 
 pi = pigpio.pi()
