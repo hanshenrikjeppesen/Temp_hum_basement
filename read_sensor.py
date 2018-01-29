@@ -6,7 +6,7 @@ pi = pigpio.pi()
 import DHT22
 # sleep(1)
 s = DHT22.sensor(pi, 4)
-sleep(1)
+# sleep(1)
 s.trigger()
 sleep(1)
 print(s.temperature())
