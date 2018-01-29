@@ -13,7 +13,7 @@ hum = 0
 for i in range(10):
     sleep(2)
     s.trigger()
-    temp = temp + str(s.temperature())
+    temp = temp + int(s.temperature())
 
 temp = temp/10
 print('avag temp is=: ' + temp)
