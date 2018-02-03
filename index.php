@@ -2,6 +2,15 @@
 <html>
 <head>
 	<title>RaspberryPi - Basement monitoring</title>
+<style>
+	body {background-color: powderblue;}
+	h1   {
+		color: blue;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	p    {color: red;}
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</style>
 </head>
 <body>
 	<h1>Project: Monitoring data in my home basement</h1>
@@ -10,6 +19,7 @@
 		while(! feof($myfile))
   			{
   			echo fgets($myfile). "<br />";
+			echo "<hr/ >";
   			}
 		/* echo fread($myfile,filesize("/home/hans/temp_log_file.txt")); */
 		fclose($myfile);
