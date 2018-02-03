@@ -20,7 +20,7 @@ sleep(1)
 # print('Humidity is {:.1f}'.format(s.humidity()))
 temp = ('Temperature is {:.1f} measured {}/{} at {}:{}'.format(s.temperature(), day, month, hour, minute))
 hum = ('Humidity is {:.1f} measured {}/{} at {}:{}'.format(s.humidity(), day, month, hour, minute))
-print(temp)
+
 with open(path_to_file, 'a') as f:
       f.write(temp + "\n")
       f.write(hum + "\n")
