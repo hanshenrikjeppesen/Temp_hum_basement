@@ -5,8 +5,11 @@
 <style>
 	body {background-color: powderblue;}
 	h1   {
+		
+		text-align: center;
 		color: blue;
 		font-family: 'Ubuntu', sans-serif;
+		font-size: 24px;
 	}
 	p    {color: red;}
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
