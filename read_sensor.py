@@ -8,7 +8,7 @@ s = DHT22.sensor(pi, 4)
 
 s.trigger()
 sleep(1)
-print('Temperature is {}'.format(s.temperature()))
-print('Humidity is {}'.format(s.humidity()))
+print('Temperature is {:.2f}'.format(s.temperature()))
+print('Humidity is {:.2f}'.format(s.humidity()))
 
       
