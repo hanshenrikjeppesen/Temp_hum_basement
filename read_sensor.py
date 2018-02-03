@@ -1,7 +1,7 @@
 from time import sleep
 import pigpio
 
-path_to_file = "/home/hans/temp_log_file"
+path_to_file = "/home/hans/temp_log_file.txt"
 pi = pigpio.pi()
 
 import DHT22
@@ -15,6 +15,7 @@ temp = ('Temperature is {:.1f}'.format(s.temperature()))
 hum = ('Humidity is {:.1f}'.format(s.humidity()))
 print(temp)
 with open(path_to_file, 'a') as f:
-      f.write(temp)
+      f.write(temp + "\n")
+      f.write(hum + "\n")
       
       
